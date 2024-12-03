@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semantic Layout</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+      <h1>Royal Dashboard</h1>
+      <form>
+        <input type="search" placeholder="Cari Kelas,Dokumen,Aktifitas dll...">
+      </form>
+  </header>
+
+  <div class="kontener">
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#maha">Mahasiswa</a></li>
+        <li><a href="#program">Kelas</a></li>
+        <li><a href="#aktifitas">Aktivitas</a></li>
+        <li><a href="#statis">Statistik</a></li>
+        <li><a href="#dokumen">Dokumen</a></li>
+        <li class="pit"><a href="#">Settings</a></li>
+        <li class="pot"><a href="#">Sign Out</a></li>
+      </ul>
+    </nav>
+  
+    <main>
+      <div class="judul" id="maha">
+          <h1>Selamat Datang, Dalimunthe xixixi <br> Kelas SI-3J</h1>
+          <p>Kamu memiliki Statistik, 3 Progres Kelas, 4 Aktifitas Selanjutnya dan 3 Lampiran <br> Dokumen yang ada pada aplikasi ini</p>
+      </div>
+      <div class="fotopp">
+          <img src="WhatsApp Image 2024-12-03 at 09.24.51_ded41e0f.jpg" alt="">
+      </div>
+    </main>
+  
+    <aside>
+        <h3 id="statis">Statistik Mahasiswa</h3>
+        <img src="Chart_Statistik.svg" alt="" width="420px" height="420px">
+    </aside>
+  
+    <section class="left">
+        <h3 id="program">Program Kelas</h3>
+        <div><b>Mata Kuliah A</b>
+          <p> 78 Pendaftar</p>
+        </div>
+  
+        <div><b>Mata Kuliah B</b>
+          <p> 30 Pendaftar</p>
+        </div>
+  
+        <div><b>Mata Kuliah C</b>
+          <p> 40 Pendaftar</p>
+        </div>
+  
+        <div><b>Mata Kuliah D</b>
+          <p> 10 Pendaftar</p>
+        </div>
+  
+      </section>
+  
+    <section class="right">
+        <h3 id="Aktifitas">Aktifitas Selanjutnya</h3>
+        <div><b>Perkuliahan Daring 1</b>
+          <p><b>Senin, 15J anuari 2025</b></p>
+        </div>
+  
+        <div><b>Perkuliahan Daring 1</b>
+          <p><b>Selasa, 15 Februari 2025</b></p>
+        </div>
+  
+        <div><b>Perkuliahan Daring 1</b>
+          <p><b>Rabu, 15 Maret 2025</b></p>
+        </div>
+  
+        <div><b>Perkuliahan Daring 1</b>
+          <p><b>Kamis, 15 April 2025</b></p>
+        </div>
+  
+    </section>
+  
+    <footer>
+      <h3 id="dokumen">Lampiran</h3>
+      <div>
+        <b>Lampiran Dokumen 1</b>- Matakuliah A |Tugas Bersama Perkuliahan Daring | <a href="#"><b>Lihat Dokumen</b></a>
+      </div>
+      <div>
+        <b>Lampiran Dokumen 1</b>- Matakuliah A |Tugas Bersama Perkuliahan Daring | <a href="#"><b>Lihat Dokumen</b></a>
+      </div>
+      <div>
+        <b>Lampiran Dokumen 1</b>- Matakuliah A |Tugas Bersama Perkuliahan Daring   |   <a href="#"><b>Lihat Dokumen</b></a>
+      </div>
+    </footer>  
+  </div>
+</body>
+</html>
